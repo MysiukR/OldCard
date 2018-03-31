@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="theme" type="xsd:string"/>
+    <xsd:element name="cardType" type="xsd:string"/>
+    <xsd:element name="status" type="xsd:string"/>
+    <xsd:element name="country" type="xsd:string"/>
+    <xsd:element name="year" type="xsd:gYear"/>
+    <xsd:element name="author" type="xsd:string"/>
+    <xsd:element name="valuable" type="xsd:string"/>
+    <xsd:simpleType name="Type">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="Postcard"/>
+            <xsd:enumeration value="Greeting card"/>
+            <xsd:enumeration value="Advertising postcard"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="status">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="Sent|NotSent"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="valuable">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="thematic"/>
+            <xsd:enumeration value="collection"/>
+            <xsd:enumeration value="historical"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:element name="oldCards">
+    <xsd:complexType>
+        <xsd:sequence>
+            <xsd:element name="oldCard" minOccurs="1" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="oldCard" >
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="theme"/>
+                <xsd:element ref="cardType"/>
+                <xsd:element ref="status"/>
+                <xsd:element ref="country"/>
+                <xsd:element ref="year"/>
+                <xsd:element ref="author"/>
+                <xsd:element ref="valuable"/>
+            </xsd:sequence>
+            <xsd:attribute name="id" type="xsd:integer"/>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

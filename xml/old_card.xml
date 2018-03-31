@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oldCards>
+    <oldCard id="1">
+        <theme>City scape</theme>
+        <cardType>Postcard</cardType>
+        <status>Sentc</status>
+        <country>Ukraine</country>
+        <year>1960</year>
+        <author>unknown</author>
+        <valuable>historical</valuable>
+    </oldCard>
+    <oldCard id="2">
+        <theme>Nature</theme>
+        <cardType>Greeting card</cardType>
+        <status>Sent</status>
+        <country>France</country>
+        <year>1970</year>
+        <author>Lui de Finess</author>
+        <valuable>collection</valuable>
+    </oldCard>
+    <oldCard id="3">
+        <theme>People</theme>
+        <cardType>Advertising postcard</cardType>
+        <status>Sent</status>
+        <country>UK</country>
+        <year>1980</year>
+        <author>John Adams</author>
+        <valuable>thematic</valuable>
+    </oldCard>
+    <oldCard id="4">
+        <theme>Sport</theme>
+        <cardType>Postcard</cardType>
+        <status>Sent</status>
+        <country>USA</country>
+        <year>1990</year>
+        <author>James Kennedy</author>
+        <valuable>collection</valuable>
+    </oldCard>
+    <oldCard id="5">
+        <theme>Religion</theme>
+        <cardType>Greeting card</cardType>
+        <status>No sent</status>
+        <country>Germany</country>
+        <year>1999</year>
+        <author>Artur Bekker</author>
+        <valuable>thematic</valuable>
+    </oldCard>
+    <oldCard id="6">
+        <theme>Architecture</theme>
+        <cardType>Advertising card</cardType>
+        <status>Sent</status>
+        <country>Italy</country>
+        <year>1965</year>
+        <author>Franchesco</author>
+        <valuable>historical</valuable>
+    </oldCard>
+</oldCards>
