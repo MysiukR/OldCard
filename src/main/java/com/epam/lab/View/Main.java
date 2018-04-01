@@ -66,7 +66,7 @@ public class Main {
         ListObjectsConvert listObjectsConvert = new ListObjectsConvert();
         List<OldCard> listOldCard;
         listOldCard = listObjectsConvert.outputResults();
-        System.out.println("Task 7");
+        System.out.println("New task 7");
         listObjectsConvert.sortList(listOldCard);
     }
 }
