@@ -68,6 +68,6 @@ public class Main {
         List<OldCard> listOldCard;
         listOldCard = listObjectsConvert.outputResults();
         System.out.println("Task 7");
-        listObjectsConvert.sortList(listOldCard);
+       // listObjectsConvert.sortList(listOldCard);
     }
 }
