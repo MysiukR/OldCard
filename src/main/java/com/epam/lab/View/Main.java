@@ -43,7 +43,6 @@ import java.util.List;
  * Task 8.	Різниця між SAX та StAX.
  * Task 9.	XML за допомогою JAXB конвертувати в ліст об’єктів.
  * In package XMLConvert: class ListObjectsConvert()
- * Add new line
  */
 
 public class Main {
@@ -67,9 +66,7 @@ public class Main {
         ListObjectsConvert listObjectsConvert = new ListObjectsConvert();
         List<OldCard> listOldCard;
         listOldCard = listObjectsConvert.outputResults();
-        System.out.println("Task 7");
-        listObjectsConvert.sortList(listOldCard);
-        System.out.println("Task 7.1");
+        System.out.println("New task 7");
         listObjectsConvert.sortList(listOldCard);
     }
 }
