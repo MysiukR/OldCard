@@ -1,0 +1,6 @@
+###################
+#Empty directories#
+###################
+.idea/
+.settings/
+target/
